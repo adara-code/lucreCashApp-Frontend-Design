@@ -10,7 +10,7 @@ body{
 .intro-section
 
 {
-    background: linear-gradient(rgba(28, 146, 210, 0.5),rgba(91, 134, 229, 0.4)), url("../img/img1.jpg");
+    background-image: linear-gradient( rgba(28, 146, 210, 0.3),rgba(91, 134, 229, 0.2)), url("../img/img1.jpg");
     min-height: 100vh;
     background-size: cover;
     background-position: center;
