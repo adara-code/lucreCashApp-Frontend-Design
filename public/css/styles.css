@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* .row {
+    width: 35%;
+    
+    display: flex;
+    align-items: center;
+    background: blanchedalmond;
+    border: 1px solid red;
+}
+
+.col-12 {
+    height: 65vh;
+    justify-content: center;
+    background: blueviolet;
+} */
