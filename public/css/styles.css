@@ -1,18 +1,35 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto:wght@400;500;700&display=swap');
+
+body{
     margin: 0;
     padding: 0;
+    font-family: Roboto,Arial;
 }
-/* .intro-section {
-    background: linear-gradient(rgba(153, 221, 255, 0.8),rgba(0, 69, 139, 0.5)), url("../img/img1.jpg");
+
+
+.intro-section {
+    background: linear-gradient(rgba(28, 146, 210, 0.5),rgba(91, 134, 229, 0.5)), url("../img/img1.jpg");
     min-height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
     
-} */
+}
+
+#logo {
+    color: #00458B;
+    font-family: 'Moon Dance', cursive;
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+}
 
 
 
 /* (rgba(63,210,199,0.6) */
 /* display: flex;
     justify-content: center;
+
+    /* potential rgba */
+    /* rgba(255, 153, 102, 0.8),rgba(255, 94, 98, 0.5) */
