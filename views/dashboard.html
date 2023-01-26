@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="../public/css/styles.css">
     <title>Dashboard</title>
 </head>
-<body>
+<body class="bg-body-secondary">
     <section id="navBar">
-            <nav class="navbar bg-body-tertiary" style="height: 60px;">
+            <nav class="navbar bg-primary " style="height: 60px;">
                 <div class="container-fluid d-flex justify-content-between align-items-center">
-                  <p class="navbar-brand ms-1 mt-2 d-inline-block ">Lucre &#8208; Cash</p>
-                  <p class="text-muted fs-5 fw-semibold">Budget for your best life</p>
-                    <button class="btn btn-sm btn-outline-primary me-1 mb-3" type="button">Logout</button> 
+                  <p class="navbar-brand ms-1 mt-2 d-inline-block text-light ">Lucre &#8208; Cash</p>
+                  <p class="text-light fs-5 ">Budget for your best life</p>
+                    <button class="btn btn-sm btn-light me-1 mb-3 py-2 ps-3 pe-3" type="button">Log Out</button> 
                 </div>          
               </nav>
     </section>
@@ -25,9 +25,20 @@
         <div class="container">
             <div class="row">
                 <div class="justify-content-center align-items-center">
-                    <div class="col-md-6 border bg-body-tertiary my-4" style="height: 600px;">
-                        <div id="userProfile" class="border m-3 rounded-2" style="height: 150px; width: 520px;"></div>
-                        <div class="border m-3 rounded-2" style="height:390px; width: 520px;"></div>
+                    <div class="col-md-6 border rounded-2 mt-4 border-light-subtle bg-body-tertiary" style="height: 600px;">
+                        <div id="userProfile" class="border bg-primary m-3 rounded-2" style="height: 155px; width: 520px;">
+                            <p class="text-light text-center display-6 fs-3 pt-3 ps-3">Hello Shee</p>
+                            <p class="text-light text-center display-6 fs-6 pt-1 ps-3">Your Current Financial Standing : <span id="financialStatus"></span></p>
+                            <div class="d-flex justify-content-center">
+                            <button class="btn btn-warning text-light me-5">Add Item</button>
+                            <button class="btn btn-warning text-light">Edit Item</button>
+                            </div>
+                        </div>
+                        <div class="border rounded-2 ms-3 me-3 mt-4" style="height:390px; width: 520px;">
+                            <p class="display-6 fs-6 pt-1 ps-3">Here is your personal income statement</p>
+                            
+                        
+                        </div>
 
 
 
